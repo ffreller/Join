@@ -1,0 +1,10 @@
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\bin\Debug\netcoreapp2.0\Join.deps.json
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\bin\Debug\netcoreapp2.0\Join.runtimeconfig.json
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\bin\Debug\netcoreapp2.0\Join.runtimeconfig.dev.json
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\bin\Debug\netcoreapp2.0\Join.dll
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\bin\Debug\netcoreapp2.0\Join.pdb
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\obj\Debug\netcoreapp2.0\Join.csproj.CoreCompileInputs.cache
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\obj\Debug\netcoreapp2.0\Join.AssemblyInfoInputs.cache
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\obj\Debug\netcoreapp2.0\Join.AssemblyInfo.cs
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\obj\Debug\netcoreapp2.0\Join.dll
+c:\Users\40809588897\Desktop\Programar\Semana9\Join\obj\Debug\netcoreapp2.0\Join.pdb
