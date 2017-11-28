@@ -19,10 +19,25 @@ namespace Join
 
             List<Fornecedor> forn = new List <Fornecedor>()
             {
-                new Fornecedor{idfornecedor = 30, RazaoSocial="Faber Castel", telefone="119988"},
-                new Fornecedor{idfornecedor = 41, RazaoSocial="Bic", telefone="119977"},
-                new Fornecedor{idfornecedor = 51, RazaoSocial="Chameco", telefone="119966"}
+                new Fornecedor{idfornecedor = 30, razaosocial="Faber Castel", telefone="119988"},
+                new Fornecedor{idfornecedor = 41, razaosocial="Bic", telefone="119977"},
+                new Fornecedor{idfornecedor = 51, razaosocial="Chameco", telefone="119966"}
             };
+
+            var resultado = prod.Join
+            (
+                forn,
+                p => p.idfornecedor, ///Campos têm que ser identicos
+                f => f.idfornecedor, ///Campos têm que ser identicos
+                (p,f) => new {pNome = p.nomeproduto, fRazao = f.razaosocial,}
+            );
+            
+            foreach(var x in resultado)
+            {
+                Console.WriteLine(x.pNome + " " + x.fRazao);
+            }
+
+            
             
         }
     }
