@@ -27,9 +27,12 @@ namespace Join
             var resultado = prod.Join
             (
                 forn,
-                p => p.idfornecedor, ///Campos têm que ser identicos
-                f => f.idfornecedor, ///Campos têm que ser identicos
-                (p,f) => new {pNome = p.nomeproduto, fRazao = f.razaosocial,}
+                p => p.idfornecedor, ///Campos têm que ser identicos. Referência para juntar 
+                f => f.idfornecedor, ///Campos têm que ser identicos. Referência para juntar
+                (p,f) => new 
+                {
+                    pNome = p.nomeproduto, fRazao = f.razaosocial
+                }
             );
             
             foreach(var x in resultado)
